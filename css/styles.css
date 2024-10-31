@@ -1,0 +1,222 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Landing Page Styles */
+.landing {
+    height: 100vh;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing .content {
+    max-width: 600px;
+}
+
+.landing h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.landing p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #e5533b;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 50px 20px;
+    /* background-color: #f4f4f4; */
+    background-color: #D8D2C2;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Portfolio Item */
+.portfolio-item {
+    /* width: calc(50% - 10px); */
+    width: 55%;
+    /* max-width: 900px; */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;      
+    max-height: 400px;
+    object-fit: cover; 
+    
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Image Slider Container */
+.image-slider-container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Image Styles */
+.slider-image {
+    width: 100%;
+    height: auto;
+    display: none; 
+}
+
+.slider-image.active {
+    display: block; 
+}
+
+/* Slider Navigation Buttons */
+.slider-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.slider-button {
+    background-color: #6e45e2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.slider-button:hover {
+    background-color: #583fb5;
+}
+
+footer {
+    background-color: #111010;
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer p {
+    margin: 0;
+    color: #FAF7F0;
+
+}
+
+footer a {
+    margin: 0;
+    color: white;
+}
+
+
+/* About Section Styles */
+.about {
+    padding: 4rem 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.bio {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.bio p {
+    margin: 0.5rem 0;
+}
+
+/* custom button */
+.custom-btn {
+    background-color: #d3221cd8; /* Warna tombol (contoh hijau) */
+    color: white; /* Warna teks */
+    padding: 10px 20px; /* Ukuran padding */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    text-decoration: none; /* Hilangkan garis bawah pada teks */
+}
+
+.custom-btn:hover {
+    background-color:  #d3221cd8; /* Warna tombol saat hover */
+}
+
+/* footer image */
+
+footer img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
